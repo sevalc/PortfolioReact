@@ -1,9 +1,10 @@
 import "./footer.css"
 
-export default function Footer() {
+function Footer() {
     return (
         <div>
-            
+            all rights reserved
         </div>
     )
 }
+export default Footer
