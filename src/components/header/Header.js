@@ -3,7 +3,7 @@ import "./header.css"
 function Header() {
     return(
         <div>
-            Hello 
+           this is header
         </div>
     )
 }
