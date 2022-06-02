@@ -1,10 +1,43 @@
+
+
+.container-fluid {
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:84vh;
+    background-color: #43455c;
+}
+
 .introText {
+    width: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
     font-size: x-large;
     justify-content: center;
-    color: #3bba9c;
-    height:84vh;
-    background-color: #43455c;
+    color:  white;
+    font-weight: lighter;
+  
+}
+
+.fullName {
+    font: size xx-large;
+    font-weight: bolder;
+    color: white;
+}
+
+.photo {
+    border-radius: 10px;
+}
+
+.left {
+    margin-top: -200px;
 }

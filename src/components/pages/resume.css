@@ -1,0 +1,23 @@
+.resumePage {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height:84vh;
+    background-color: #43455c;
+    color: white;
+    justify-content: center;
+   
+}
+
+.resumeContent {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.fullName {
+    font: size xx-large;
+    font-weight: bolder;
+    color: white;
+}
+h6 {
+    color:#3bba9c
+}

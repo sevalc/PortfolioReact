@@ -1,45 +1,64 @@
 .bg1 {
     background-image: url("../../../public/assets/stardew.JPG");
     background-position: center;
+    border-radius: 10px;
 }
 
 .bg2 {
     background-image: url("../../../public/assets/tech_blogJPG.JPG");
     background-position: center;
+    border-radius: 10px;
 }
 
 .bg3 {
     background-image: url("../../../public/assets/weather_dashboard2.JPG");
-    background-position: center;
+    background-position: left;
+    border-radius: 10px;
 }
 .bg4 {
     background-image: url("../../../public/assets/screenshotPage.JPG");
     background-position: center;
+    border-radius: 10px;
 }
 
 .bg5 {
     background-image: url("../../../public/assets/noteTaker.JPG");
-    background-position: center;
+    background-position: top;
+    border-radius: 10px;
 }
 
 .bg6 {
     background-image: url("../../../public/assets/social_network_scshot.JPG");
-    background-position: center;
+    background-position: top;
+    border-radius: 10px;
+    box-shadow:white;
 }
 
 .deployedLink {
     text-decoration: none;
+    color:black;
+    font-weight: bolder;
+    font-size: large;
 
 }
 
 .portfolio {
     height:84vh;
-    background-color: #43455c;
+    background-color: #2e3047;
 }
 
 .pageHeader {
     color: #3bba9c;
-    text-align: center;
+    text-align: left;
+    margin-bottom: 50px;
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 #portfolioBoxes {
@@ -50,11 +69,16 @@
     left:0;
     right:0;
     bottom:0;
-    
+}
 
+.card {
+    height:175px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
 }
 
 .card :hover{
-    filter:grayscale(4);
+    filter:grayscale(1);
     cursor: pointer;
   }

@@ -7,12 +7,14 @@
 .nav {
     height: 8vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-content: center;
 }
 
 .nav-item {
     text-decoration: none;
-    font-size: large;
+    font-size: x-large;
+    margin-right: 20px;
+    color:#3bba9c
 
 }

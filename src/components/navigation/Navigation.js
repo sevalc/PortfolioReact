@@ -5,20 +5,20 @@ function Navigation() {
   return (
     <div className="navigationBar">
       <ul className="nav nav-tabs">
-        <li className="nav-item">
-          <Link to="/">Home</Link>
+        <li>
+          <Link to="/" className="nav-item">About</Link>
         </li>
-        <li className="nav-item">
-          <Link to="/About">About Me</Link>
+        {/* <li >
+          <Link to="/About" className="nav-item">About Me</Link>
+        </li> */}
+        <li >
+          <Link to="/Portfolio" className="nav-item">Portfolio</Link>
         </li>
-        <li className="nav-item">
-          <Link to="/Portfolio">Portfolio</Link>
+        <li >
+          <Link to="/Contact" className="nav-item">Contact</Link>
         </li>
-        <li className="nav-item">
-          <Link to="/Contact">Contact</Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/Resume">Resume</Link>
+        <li >
+          <Link to="/Resume" className="nav-item">Resume</Link>
         </li>
       </ul>
     </div>

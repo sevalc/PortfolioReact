@@ -1,5 +1,6 @@
-label{
-    color: blue;
+
+label {
+    color:white;
     margin-bottom: 0.5rem;
 }
 
@@ -15,11 +16,12 @@ form input, form textarea{
     margin-bottom: 1rem;
     padding: 10px 18px;
     font-size: 1.2rem;
-    background-color: darkgray;
+    background-color: white;
     border-color: black;
-    color:blue
+    color: #43455c;
 }
 
 .btn {
-    background-color: aqua;
+    color: white;
+    background-color:#3bba9c;
 }

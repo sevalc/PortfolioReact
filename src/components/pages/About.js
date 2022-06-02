@@ -1,12 +1,22 @@
+import "./about.css";
 
 export default function About() {
-    return (
+  return (
+
+    <div className="container-fluid">
+      <div className="left">
+        <img className= "photo" src="assets/profile_foto.jpg "></img>
+      </div>
+      <div>
         <div className="introText">
-            <h1>About Me</h1>
-            <p>Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper </p>
+          <p className="fullName">SEVAL CAKIR</p>
+          <p >On a journey to be a full stack developer...</p>
+          <p>
+            I am currently based in Seattle and attending University of Washington Coding Bootcamp. I am looking forward to creating beautiful products and solving problems...
+          </p>
         </div>
-    )
+      </div>
+      <div className="col right"></div>
+    </div>
+  );
 }
