@@ -2,3 +2,13 @@
 .icon {
     font-size: 30px;
 }
+
+.footer{
+    max-width: 100%;
+    padding: 0;
+    height: 8vh;
+    background-color: #707793;
+    color: #3bba9c;
+    text-align: center;
+    
+  }

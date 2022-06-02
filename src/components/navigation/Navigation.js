@@ -17,6 +17,9 @@ function Navigation() {
         <li className="nav-item">
           <Link to="/Contact">Contact</Link>
         </li>
+        <li className="nav-item">
+          <Link to="/Resume">Resume</Link>
+        </li>
       </ul>
     </div>
   );

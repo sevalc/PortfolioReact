@@ -1,0 +1,10 @@
+.introText {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: x-large;
+    justify-content: center;
+    color: #3bba9c;
+    height:84vh;
+    background-color: #43455c;
+}

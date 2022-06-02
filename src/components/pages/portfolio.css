@@ -1,4 +1,60 @@
-#Box1 {
-    width: 20px;
-    height:30px;
+.bg1 {
+    background-image: url("../../../public/assets/stardew.JPG");
+    background-position: center;
 }
+
+.bg2 {
+    background-image: url("../../../public/assets/tech_blogJPG.JPG");
+    background-position: center;
+}
+
+.bg3 {
+    background-image: url("../../../public/assets/weather_dashboard2.JPG");
+    background-position: center;
+}
+.bg4 {
+    background-image: url("../../../public/assets/screenshotPage.JPG");
+    background-position: center;
+}
+
+.bg5 {
+    background-image: url("../../../public/assets/noteTaker.JPG");
+    background-position: center;
+}
+
+.bg6 {
+    background-image: url("../../../public/assets/social_network_scshot.JPG");
+    background-position: center;
+}
+
+.deployedLink {
+    text-decoration: none;
+
+}
+
+.portfolio {
+    height:84vh;
+    background-color: #43455c;
+}
+
+.pageHeader {
+    color: #3bba9c;
+    text-align: center;
+}
+
+#portfolioBoxes {
+    color:antiquewhite;
+    display: flex;
+    position: relative;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    
+
+}
+
+.card :hover{
+    filter:grayscale(4);
+    cursor: pointer;
+  }
