@@ -44,6 +44,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 https://github.com/sevalc/PortfolioReact
 
 ### Heroku 
+https://portfolioreactseval.herokuapp.com/
 
 ## Installation
 PLease run (npm install) command in your terminal to install all dependencies. 
